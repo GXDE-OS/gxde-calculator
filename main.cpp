@@ -29,18 +29,18 @@ int main(int argc, char *argv[])
     DApplication app(argc, argv);
     app.setAttribute(Qt::AA_UseHighDpiPixmaps);
     app.loadTranslator();
-    app.setOrganizationName("deepin");
-    app.setApplicationName("deepin-calculator");
+    app.setOrganizationName("GXDE");
+    app.setApplicationName("gxde-calculator");
     app.setApplicationVersion(DApplication::buildVersion("1.0.1"));
-    app.setApplicationAcknowledgementPage("https://www.deepin.org/acknowledgments/deepin-calculator");
-    app.setProductIcon(QIcon(":/images/deepin-calculator.svg"));
-    app.setProductName(DApplication::translate("MainWindow", "Deepin Calculator"));
-    app.setApplicationDescription(DApplication::translate("MainWindow", "Deepin Calculator is a simple and easy to use desktop calculator. It supports addition, subtraction, multiplication and division."));
+    app.setApplicationAcknowledgementPage("https://gxde.gfdgdxi.top");
+    app.setProductIcon(QIcon(":/images/gxde-calculator.svg"));
+    app.setProductName(DApplication::translate("MainWindow", "GXDE Calculator"));
+    app.setApplicationDescription(DApplication::translate("MainWindow", "GXDE Calculator is a simple and easy to use desktop calculator. It supports addition, subtraction, multiplication and division."));
 
     MainWindow w;
     w.show();
 
-    if (app.setSingleInstance("deepin-calculator")) {
+    if (app.setSingleInstance("gxde-calculator")) {
         Dtk::Widget::moveToCenter(&w);
     }
 

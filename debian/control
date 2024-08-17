@@ -1,13 +1,13 @@
-Source: deepin-calculator
+Source: gxde-calculator
 Section: utils
 Priority: optional
-Maintainer: Rekols <rekols@foxmail.com>
-Build-Depends: debhelper (>= 9), pkg-config, qt5-qmake, libdtkwidget-dev, libqt5svg5-dev, qttools5-dev-tools
+Maintainer: gfdgd_xi <3025613752@qq.com>
+Build-Depends: debhelper (>= 9), pkg-config, qt5-qmake, libdtkwidget2-dev, libqt5svg5-dev, qttools5-dev-tools
 Standards-Version: 3.9.8
-Homepage: http://www.deepin.org
+Homepage: https://gxde.gfdgdxi.top
 
-Package: deepin-calculator
+Package: gxde-calculator
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: Calculator for deepin
- deepin calculator tool.
+Description: Calculator for GXDE
+ GXDE calculator tool.
