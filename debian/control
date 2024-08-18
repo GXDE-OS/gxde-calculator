@@ -8,6 +8,7 @@ Homepage: https://gxde.gfdgdxi.top
 
 Package: gxde-calculator
 Architecture: any
+Replaces: deepin-calculator
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: Calculator for GXDE
  GXDE calculator tool.
