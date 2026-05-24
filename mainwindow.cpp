@@ -56,7 +56,7 @@ MainWindow::MainWindow(QWidget *parent)
     initModule();
     initTheme();
 
-    setWindowTitle(tr("Deepin Calculator"));
+    setWindowTitle(tr("GXDE Calculator"));
 
     connect(m_themeAction, &QAction::triggered, this, &MainWindow::switchTheme);
     connect(m_simpleAction, &QAction::triggered, this, &MainWindow::switchToSimpleMode);

@@ -32,7 +32,7 @@ int main(int argc, char *argv[])
     app.setOrganizationName("GXDE");
     app.setApplicationName("gxde-calculator");
     app.setApplicationVersion(DApplication::buildVersion("1.0.1"));
-    app.setApplicationAcknowledgementPage("https://gxde.gfdgdxi.top");
+    app.setApplicationAcknowledgementPage("https://www.gxde.top");
     app.setProductIcon(QIcon(":/images/gxde-calculator.svg"));
     app.setProductName(DApplication::translate("MainWindow", "GXDE Calculator"));
     app.setApplicationDescription(DApplication::translate("MainWindow", "GXDE Calculator is a simple and easy to use desktop calculator. It supports addition, subtraction, multiplication and division."));
